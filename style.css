@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -19,6 +19,7 @@ header {
 
   position: fixed;
   width: 100%;
+  background-color: #09090a;
 }
 
 button {
@@ -74,6 +75,8 @@ button {
 
 .day div {
   margin-bottom: 8px;
+
+  font-family: "Roboto Mono";
   font-size: 20px;
   line-height: 125%;
   color: #a1a1aa;
